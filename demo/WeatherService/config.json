@@ -1,0 +1,8 @@
+{
+  "name": "WeatherService",
+  "type": "generalService",
+  "scriptLang": "python",
+  "description": "天气服务",
+  "version": "0.1",
+  "entry": "app.py"
+}

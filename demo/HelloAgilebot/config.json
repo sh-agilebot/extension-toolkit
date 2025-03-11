@@ -1,0 +1,8 @@
+{
+  "name": "HelloAgilebot",
+  "type": "customPage",
+  "scriptLang": "",
+  "description": "显示 Hello Agilebot!",
+  "version": "0.1",
+  "url": "index.html"
+}
