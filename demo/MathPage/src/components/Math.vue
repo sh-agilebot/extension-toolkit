@@ -7,7 +7,7 @@ const b = ref(0);
 const c = ref(0);
 
 const handleCalculate = async () => {
-  const result = await callEasyService('math', 'add', {
+  const result = await callEasyService('MathService', 'add', {
     a: a.value,
     b: b.value
   })

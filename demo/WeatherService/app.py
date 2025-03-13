@@ -10,6 +10,10 @@ PORT = os.getenv("PORT", 8000)
 
 
 logger = logging.getLogger(__name__)
+logging.basicConfig(
+    level=logging.DEBUG,
+    format='%(asctime)s - %(filename)s:%(lineno)d - %(levelname)s - %(message)s',
+)
 
 app = FastAPI()
 app.add_middleware(
@@ -24,7 +28,6 @@ app.add_middleware(
 async def get_weather():
     """
     获取指定城市的天气
-    :param city: 城市名
     :return: 城市天气信息
     """
     # 构建查询 URL
@@ -45,10 +48,5 @@ async def get_weather():
 
 if __name__ == "__main__":
     import uvicorn
-
-    logging.basicConfig(
-        level=logging.DEBUG,
-        format='%(asctime)s - %(filename)s:%(lineno)d - %(levelname)s - %(message)s',
-    )
 
     uvicorn.run(app, host="0.0.0.0", port=int(PORT))

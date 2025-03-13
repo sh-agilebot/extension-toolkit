@@ -17,5 +17,5 @@ def add(a: int, b: int) -> int:
         return result
 
     except Exception as ex:
-      logger.error(ex)
-      return 0
+        logger.error(ex)
+        return 0
