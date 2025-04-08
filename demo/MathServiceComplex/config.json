@@ -1,0 +1,7 @@
+{
+  "name": "MathServiceComplex",
+  "type": "easyService",
+  "scriptLang": "python",
+  "description": "数学服务",
+  "version": "0.1"
+}

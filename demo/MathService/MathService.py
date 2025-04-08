@@ -1,5 +1,9 @@
 # 获取全局logger实例，只能在简单服务中使用
 logger = globals().get('logger')
+if logger is None:
+    # 本地调试时，使用自带日志库
+    import logging
+    logger = logging.getLogger(__name__)
 
 def add(a: int, b: int) -> int:
     """

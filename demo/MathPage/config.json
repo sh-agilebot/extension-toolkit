@@ -1,7 +1,7 @@
 {
+  "$schema": "./node_modules/@agilebot/extension-schemas/v1.0/extension-schema.json",
   "name": "MathPage",
-  "type": "customPage",
-  "scriptLang": "",
+  "type": "webMiniProgram",
   "description": "加法计算器",
   "version": "0.1",
   "url": "index.html"

@@ -1,6 +1,6 @@
 {
   "name": "HelloAgilebot",
-  "type": "customPage",
+  "type": "webMiniProgram",
   "scriptLang": "",
   "description": "显示 Hello Agilebot!",
   "version": "0.1",
