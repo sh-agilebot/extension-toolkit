@@ -1,0 +1,10 @@
+{
+  "name": "DataService",
+  "author": "",
+  "type": "easyService",
+  "scriptLang": "python",
+  "description": "数据服务",
+  "version": "0.1",
+  "entry": "",
+  "url": ""
+}
