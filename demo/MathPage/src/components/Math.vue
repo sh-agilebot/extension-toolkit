@@ -1,21 +1,3 @@
-<script setup lang="ts">
-import { ref } from 'vue'
-import { callEasyService } from '@agilebot/extension-runtime'
-
-const a = ref(0);
-const b = ref(0);
-const c = ref(0);
-
-const handleCalculate = async () => {
-  const result = await callEasyService('MathService', 'add', {
-    a: a.value,
-    b: b.value
-  })
-  c.value = result
-};
-</script>
-
-
 <template>
   <div class="math">
     <h1>加法计算器</h1>
@@ -35,6 +17,23 @@ const handleCalculate = async () => {
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+import { ref } from 'vue'
+import { callEasyService } from '@agilebot/extension-runtime'
+
+const a = ref(0);
+const b = ref(0);
+const c = ref(0);
+
+const handleCalculate = async () => {
+  const result = await callEasyService('MathService', 'add', {
+    a: a.value,
+    b: b.value
+  })
+  c.value = result
+};
+</script>
 
 <style scoped>
   .math {
