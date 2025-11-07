@@ -1,3 +1,3 @@
 # Agilebot Extension Toolkit
 
-插件开发手册：https://agilebot-extension-docs.readthedocs.io/zh/
+插件开发手册：https://dev.sh-agilebot.com/docs/extension/
