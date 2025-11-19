@@ -1,0 +1,11 @@
+{
+  "$schema": "./node_modules/@agilebot/extension-schemas/v1.0/extension-schema.json",
+  "name": "TcpVelocity",
+  "type": "generalService",
+  "author": "agilebot",
+  "scriptLang": "python",
+  "description": "插件范例 - TCP速度",
+  "version": "0.1",
+  "entry": "main.py",
+  "url": "/"
+}

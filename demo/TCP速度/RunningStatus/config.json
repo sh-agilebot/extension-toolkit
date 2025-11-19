@@ -1,0 +1,8 @@
+{
+  "name": "RunningStatus",
+  "type": "easyService",
+  "author": "agilebot",
+  "scriptLang": "python",
+  "description": "插件范例 - TCP速度指令",
+  "version": "0.1"
+}
